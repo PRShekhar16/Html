@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <title>Forms in HTML</title>
+</head>
+<!-- 
+    in html, forms are used to collect the data/information from the user and to identity of a user.
+
+    i think is lengthy algorithm don't panic by seeing lol ;)
+Forms is most important topic in html by using forms we colect data from the user. there is different different types of input,value,id's.....etc attributes is there each attribute perform their predefined tasks.
+ -->
+<body>
+<form action="">
+    <label for="fname">First Name</label>
+    <br>
+    <input type="text" id="fname" name="fname" placeholder="First Name">
+    <br>
+    <label for="lname">Last Name</label>
+    <br>
+    <input type="text" id="lname" name="lname" placeholder="Last Name">
+    <br>
+    <label for="Email_ID">Email ID</label>
+    <br>
+    <input type="email" id="Email_ID" placeholder="David@jones.com">
+    <br>
+    <br>
+    <input type="password" name="password" id="password" placeholder="Enter Password">
+<br>
+<br>
+<h3>Enter Date of birth</h3>
+<input type="date">
+ 
+<!-- If you entered your data it will goes to action page -->
+
+<h3>Which following language you known and how much fluent</h3>
+
+    <input type="range" name="lang" id="tel">
+    <label for="language">Telugu</label>
+    <br>
+    <input type="range" name="lang" id="enlgish">
+    <label for="language">English</label>
+    <br>
+    <input type="range" name="lang" id="hin">
+    <label for="language">Hindhi</label>
+    <br>
+    <input type="range" name="all" id="all">
+    <label for="all">All The Above</label>
+
+<h3>Select your Gender</h3>
+
+    <input type="radio" name="gmale" id="male">
+    <label for="male">Male</label>
+    <br>
+    <input type="radio" name="gfemale" id="female">
+    <label for="female">Female</label>
+    <br>
+    <input type="radio" name="gothers" id="others">
+    <label for="others">Others</label>
+    <br>
+
+    <h2>Select your district</h2>
+    <select >
+        <option value="Anantapur">Anantapur</option>
+        <option value="Chittor">Chittor</option>
+        <option value="Kurnool">Kurnool</option>
+        <option value="Kadapa">Kadapa</option>
+        <option value="Guntur">Guntur</option>
+        <option value="Prakasham">Prakasham</option>
+        <option value="Vijayawada">Vijayawada</option>
+        <option value="Vishakapatnam">Vishakapatnam</option>
+    </select>
+
+    <br><p> Upload your adress proof </p><br><input type="file">
+    <br><h2>Describe youself in brief</h2>
+    <textarea name="Description" id="" cols="30" rows="10"></textarea>
+    <br><br><input type="submit" value="Submmit">
+    <br>
+</form> 
+</body>
+</html>
